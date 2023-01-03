@@ -5,6 +5,7 @@ import Front from "./pages/FrontPage";
 import Main from "./pages/MainPage";
 import Signup from "./pages/SignupPage";
 import Loggedout from "./pages/SignedoutPage";
+import Faq from "./pages/Faq";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/main" element={<Main />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/loggedout" element={<Loggedout />} />
+        <Route path="/FAQ" element={<Faq />} />
       </Routes>
     </BrowserRouter>
   );
